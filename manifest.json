@@ -6,6 +6,7 @@
     "auth-extras.js",
     "identity.js",
     "site-header.js",
+    "coins.mjs",
     "README.md",
     "robots.txt.tpl",
     "ai.txt.tpl",
@@ -18,9 +19,11 @@
     "auth-extras.js",
     "identity.js",
     "site-header.js",
+    "coins.mjs",
     "README.md"
   ],
   "mathduel": [
-    "identity.js"
+    "identity.js",
+    "coins.mjs"
   ]
 }
