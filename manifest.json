@@ -1,0 +1,30 @@
+{
+  "_comment": "各站 sync-shared.mjs 按本站清单从 shared/ 拉取。新增共享文件：先放 shared/，再按站加进对应清单。",
+  "boardduel": [
+    "sso-bridge.js",
+    "icons.svg",
+    "auth-extras.js",
+    "identity.js",
+    "site-header.js",
+    "README.md",
+    "robots.txt.tpl",
+    "ai.txt.tpl",
+    "404.html.tpl",
+    "manifest.webmanifest.tpl"
+  ],
+  "memoryduel": [
+    "sso-bridge.js",
+    "icons.svg",
+    "auth-extras.js",
+    "identity.js",
+    "site-header.js",
+    "README.md",
+    "robots.txt.tpl",
+    "ai.txt.tpl",
+    "404.html.tpl",
+    "manifest.webmanifest.tpl"
+  ],
+  "mathduel": [
+    "identity.js"
+  ]
+}
