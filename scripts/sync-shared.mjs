@@ -15,7 +15,8 @@ import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const RAW_BASE = 'https://raw.githubusercontent.com/eyetoolkit/fe-shared/main';
+/* FE_SHARED_RAW 覆盖仅用于本地/离线调试（指向本地静态服务），CI 不设走官方 raw */
+const RAW_BASE = process.env.FE_SHARED_RAW || 'https://raw.githubusercontent.com/eyetoolkit/fe-shared/main';
 const site = process.argv[2];
 const checkMode = process.argv.includes('--check');
 if (!site) { console.error('usage: node scripts/sync-shared.mjs <boardduel|memoryduel|mathduel> [--check]'); process.exit(2); }
