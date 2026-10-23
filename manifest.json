@@ -21,10 +21,12 @@
     "identity.js",
     "site-header.js",
     "coins.mjs",
+    "tokens.css",
     "README.md"
   ],
   "mathduel": [
     "identity.js",
-    "coins.mjs"
+    "coins.mjs",
+    "tokens.css"
   ]
 }
