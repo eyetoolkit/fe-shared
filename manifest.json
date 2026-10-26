@@ -12,7 +12,9 @@
     "robots.txt.tpl",
     "ai.txt.tpl",
     "404.html.tpl",
-    "manifest.webmanifest.tpl"
+    "manifest.webmanifest.tpl",
+    "analytics.js",
+    "consent.css"
   ],
   "memoryduel": [
     "sso-bridge.js",
@@ -22,11 +24,15 @@
     "site-header.js",
     "coins.mjs",
     "tokens.css",
-    "README.md"
+    "README.md",
+    "analytics.js",
+    "consent.css"
   ],
   "mathduel": [
     "identity.js",
     "coins.mjs",
-    "tokens.css"
+    "tokens.css",
+    "analytics.js",
+    "consent.css"
   ]
 }
