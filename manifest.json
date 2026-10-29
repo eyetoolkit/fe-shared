@@ -14,7 +14,8 @@
     "404.html.tpl",
     "manifest.webmanifest.tpl",
     "analytics.js",
-    "consent.css"
+    "consent.css",
+    "invite-card.mjs"
   ],
   "memoryduel": [
     "sso-bridge.js",
@@ -26,7 +27,8 @@
     "tokens.css",
     "README.md",
     "analytics.js",
-    "consent.css"
+    "consent.css",
+    "invite-card.mjs"
   ],
   "mathduel": [
     "identity.js",
