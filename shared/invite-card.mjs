@@ -342,8 +342,9 @@ function mount() {
   return el;
 }
 
-/** 轻量 toast（自包含；调用方也可传 cfg.toast 覆盖为站点原生 toast） */
+/** toast：站点传了 cfg.toast 用站点原生，否则用内置胶囊 */
 function toastMsg(msg) {
+  if (current?.toast) { try { current.toast(msg); } catch { /* noop */ } return; }
   try {
     let el = document.querySelector('.fc-invite-toast');
     if (!el) {
