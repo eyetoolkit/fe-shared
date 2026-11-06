@@ -15,7 +15,8 @@
     "manifest.webmanifest.tpl",
     "analytics.js",
     "consent.css",
-    "invite-card.mjs"
+    "invite-card.mjs",
+    "tri-ui.css"
   ],
   "memoryduel": [
     "sso-bridge.js",
@@ -28,13 +29,15 @@
     "README.md",
     "analytics.js",
     "consent.css",
-    "invite-card.mjs"
+    "invite-card.mjs",
+    "tri-ui.css"
   ],
   "mathduel": [
     "identity.js",
     "coins.mjs",
     "tokens.css",
     "analytics.js",
-    "consent.css"
+    "consent.css",
+    "tri-ui.css"
   ]
 }
